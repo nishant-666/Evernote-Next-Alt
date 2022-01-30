@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+$dark-red: rgb(119, 27, 27);
+$black: black;
+$whiteSmoke: whiteSmoke;
+$gray: gray;
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 30rem;
+}
+
+.button {
+    width: 25rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: $black;
+    color: $whiteSmoke;
+    border: $black;
+    font-family: "Roboto";
+}
+
+.input {
+    width: 25rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid $gray;
+    margin: 5px 0;
+}
+
+.saveBtn {
+    width: 25rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: $dark-red;
+    color: $whiteSmoke;
+    border: $dark-red;
+    font-family: "Roboto";
+}
+
+.ReactQuill{
+    width: 25rem;
+}
+
+.notesInner{
+    margin-top: 0.5rem;
+    border: 1px solid $dark-red;
+    border-radius: 10px;
+    width: 25rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.notesInner:hover{
+    background-color: rgb(119, 27, 27);
+    color: $whiteSmoke;
+}
+
+.editBtn, .deleteBtn{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(119, 27, 27);
+    color: $whiteSmoke;
+    border: none;
+    cursor: pointer;
+    margin: 10px 10px 10px 0;
+}
